@@ -107,7 +107,7 @@ const SearchBooks = () => {
                             />
                         </div>
 
-                        <div className="form-group mb-3">
+                        <div className="form-group">
                             <button 
                             className="btn btn-outline-secondary ml-3 "
                             >Rechercher</button>
