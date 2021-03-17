@@ -23,8 +23,8 @@ const AddBooks = ({libraryData, addBook, deleteBook, deleteAllBooks}) => {
         libraryData.map( data => {
           return(
             <li key={data.id} className="list-group-item list-group-item-light d-flex justify-content-between">
-              <span><strong>Titre</strong> {data.title} </span>
-              <span><strong>Auteur</strong> {data.author} </span>
+              <span><strong>Titre: </strong> {data.title} </span>
+              <span><strong>Auteur: </strong> {data.author} </span>
               <span onClick={ e => deleteBook(data.id) } className="btn btn-danger">X</span>
             </li>
           )
