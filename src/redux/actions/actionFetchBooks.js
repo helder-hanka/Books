@@ -24,7 +24,7 @@ const fetchBooksError = error => {
     }
 }
 
-const GOOGLE_API_KEY = "AIzaSyAnxUON__tk8-n6HZgERcr-_uLgqgfswx0"
+const GOOGLE_API_KEY = process.env.REACT_APP_GOOGLE_API_KEY
 
 export const fetchBooks = title => {
     return dispatch => {
